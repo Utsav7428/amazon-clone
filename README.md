@@ -1,16 +1,34 @@
-# amazon_clone
+# Amazon Clone
 
-A new Flutter project.
+## Overview
+This project is a clone of the Amazon platform built using Flutter for the frontend, and Node.js, Express.js, MongoDB for the backend. Cloudinary is used for image storage. The application provides functionalities for both users and administrators.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+### User Side:
+- **Authentication**: Users can sign up, log in, and log out securely.
+- **Product Browsing**: Users can browse products listed on the platform.
+- **Product Search**: Users can search for products based on various criteria.
+- **Product Details**: Users can view detailed information about a specific product.
+- **Shopping Cart**: Users can add products to their shopping cart.
+- **Checkout**: Users can proceed to checkout and place orders.
+- **Order Tracking**: Users can track the status of their orders.
+- **User Profile**: Users can view and manage their profiles.
 
-A few resources to get you started if this is your first Flutter project:
+### Admin Side:
+- **Admin Dashboard**: Administrators have access to a dashboard for managing the platform.
+- **Product Management**: Administrators can add, edit, and delete products.
+- **Order Management**: Administrators can view and manage orders.
+- **User Management**: Administrators can view and manage user accounts.
+- **Inventory Management**: Administrators can track inventory levels.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Technologies Used
+- **Frontend**: Flutter
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Image Storage**: Cloudinary
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Utsav7428/amazon-clone.git
